@@ -1,0 +1,21 @@
+{
+	"name": "CelesteDev",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureDatabricks",
+		"typeProperties": {
+			"domain": "https://adb-8852666863640271.11.azuredatabricks.net",
+			"authentication": "MSI",
+			"workspaceResourceId": "/subscriptions/0432b1d0-5e2e-4e2a-ad73-e33d0652e3f7/resourceGroups/celeste-test-rg/providers/Microsoft.Databricks/workspaces/celeste-dev-premium",
+			"newClusterNodeType": "Standard_DS4_v2",
+			"newClusterNumOfWorker": "1:2",
+			"newClusterSparkEnvVars": {
+				"PYSPARK_PYTHON": "/databricks/python3/bin/python3"
+			},
+			"newClusterVersion": "10.4.x-scala2.12",
+			"newClusterInitScripts": [],
+			"clusterOption": "Autoscaling"
+		}
+	}
+}

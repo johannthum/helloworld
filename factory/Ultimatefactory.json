@@ -1,0 +1,9 @@
+{
+	"name": "Ultimatefactory",
+	"location": "japaneast",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "3a56a775-ca23-4da3-a327-afe08b83d783",
+		"tenantId": "d6248ab4-ffcf-44fc-9ee4-cf93fbfe5c54"
+	}
+}
